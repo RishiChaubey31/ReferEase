@@ -6,7 +6,7 @@ function Motives() {
   const navItems = ['Refer', 'Benefits', 'FAQs', 'Support'];
 
   return (
-    <div className="flex justify-center mt-8 px-4">
+    <div className="flex justify-center mt-32 px-4">
       <div className="mx-auto w-fit px-6 sm:px-12 md:px-16 py-2 border border-gray-300 rounded-full bg-blue-50">
         <div className="flex gap-4 sm:gap-8 md:gap-16">
           {navItems.map((item) => (
