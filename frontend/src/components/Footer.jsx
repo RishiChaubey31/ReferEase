@@ -16,7 +16,7 @@ const Footer = () => {
     "Fintech",
   ];
 
-  const accredianLinks = [
+  const referbaseLinks = [
     { title: "About", href: "#" },
     { title: "Career", href: "#" },
     { title: "Blog", href: "#" },
@@ -41,8 +41,8 @@ const Footer = () => {
         {/* Programs Section */}
         <div>
           <div className="mb-4"  >
-            <h1 className="text-6xl">accredian</h1>
-            <p className="ml-12">credentials that matter</p>
+            <h1 className="text-6xl">referbase</h1>
+            <p className="ml-12">grow with ease</p>
           </div>
 
           <h3 className="text-xl font-semibold mb-4">Programs</h3>
@@ -63,8 +63,8 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
           <div className="space-y-3">
-            <p>Email us (For Data Science Queries): admissions@accredian.com</p>
-            <p>Email us (For Product Management Queries): pm@accredian.com</p>
+            <p>Email us (For Data Science Queries): admissions@referbase.com</p>
+            <p>Email us (For Product Management Queries): pm@referbase.com</p>
             <p>Data Science Admission Helpline:+91 9079653292 (9 AM - 7 PM)</p>
             <p>Product Management Admission Helpline:+91 9625811095</p>
             <p>Enrolled Student Helpline: +91 7969322507</p>
@@ -75,7 +75,7 @@ const Footer = () => {
           </div>
 
           <div className="mt-6">
-            <h3 className="text-xl font-semibold mb-4">Why Accredian</h3>
+            <h3 className="text-xl font-semibold mb-4">Why referbase</h3>
           </div>
 
           <div className="mt-6">
@@ -130,11 +130,11 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Accredian Links Section */}
+        {/* referbase Links Section */}
         <div>
-          <h3 className="text-xl font-semibold mb-4">Accredian</h3>
+          <h3 className="text-xl font-semibold mb-4">referbase</h3>
           <div className="space-y-2">
-            {accredianLinks.map((link) => (
+            {referbaseLinks.map((link) => (
               <a
                 key={link.title}
                 href={link.href}
@@ -150,7 +150,7 @@ const Footer = () => {
       {/* Bottom Section */}
       <div className="max-w-7xl mx-auto mt-8 pt-8 border-t border-gray-700">
         <p className="text-center text-gray-400">
-          © 2025 Accredian A Brand of FullStack
+          © 2025 referbase A Brand of FullStack
         </p>
       </div>
     </footer>

@@ -11,7 +11,7 @@ function Navbar() {
         <div className="flex items-center justify-between max-w-7xl mx-auto">
           {/* Left side: Logo and Dropdown */}
           <div className="flex items-center space-x-4">
-            <img src="/logo.png" alt="Description" className="w-24" />
+            <img src="/realogo.png" alt="Description" className="w-24" />
             <div className="relative hidden md:block">
               <button 
                 className="bg-blue-500 text-white px-4 py-1 rounded hover:bg-blue-600 flex items-center space-x-2"
