@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Headers from "./components/header";
+import Headers from "./components/Header";
 import Motives from "./components/Motives";
 import HeroImage from "./components/HeroImage";
 import Circles from "./components/Circles";
